@@ -20,6 +20,7 @@ const menu = (
   <Menu>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.alipay.com/">1st menu item</a>
     </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="http://www.taobao.com/">2nd menu item</a>
@@ -32,7 +33,7 @@ const menu = (
 
 ReactDOM.render(
   <div>
-    <Dropdown overlay={menu} placement="bottomLeft">
+    <Dropdown overlay={menu} placement="bottomLeft111">
       <Button>bottomLeft</Button>
     </Dropdown>
     <Dropdown overlay={menu} placement="bottomCenter">
